@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="75dp"
+    android:orientation="vertical"
+    tools:context=".MainActivityFragment"
+    android:baselineAligned="false"
+    android:gravity="center|top">
+
+    <TextView android:text="@string/my_nano_degree" android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/spotify_streamer_button"
+        android:layout_width="wrap_content"
+        android:text="@string/spotify_streamer"
+        android:layout_height="0dp"
+        android:textSize="18dp"
+        android:minWidth="300dp"
+        android:background="#F08C35"
+        android:layout_weight="1"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:id="@+id/scores_app_button"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/scores_app"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:minWidth="300dp"
+        android:background="#F08C35"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:id="@+id/library_app_button"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/library_app"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:minWidth="300dp"
+        android:background="#F08C35"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:id="@+id/xyz_reader_button"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/xyz_reader"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:minWidth="300dp"
+        android:background="#F08C35"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:id="@+id/build_it_bigger_button"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/build_it_bigger"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:minWidth="300dp"
+        android:background="#F08C35"
+        android:layout_margin="5dp" />
+    <Button
+        android:id="@+id/capstone_button"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/capstone_title"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:minWidth="300dp"
+        android:background="#ff0000"
+        android:layout_margin="5dp" />
+
+</LinearLayout>
